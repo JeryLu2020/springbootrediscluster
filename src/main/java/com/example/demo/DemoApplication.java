@@ -29,7 +29,7 @@ import io.lettuce.core.SslOptions;
 @RestController
 public class DemoApplication  {
     RedisURI redisUri = RedisURI.Builder.redis("yuawamr.eastasia.redis.azure.net", 10000)
-            .withPassword("Q9cOa7hoDce2w4Oid7dW8m3DXFT1GhoXbAzCaC4ouCA=")
+            .withPassword("")
             .withSsl(true)
             .withVerifyPeer(false)
             .build();
